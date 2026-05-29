@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f43abe0fcb6697140b6b130edd5737c9, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  Questions:
+  - QuestionText: At room temperature, in which state does water naturally exist?
+    Options:
+    - Solid
+    - Liquid
+    - Gas
+    - Plasma
+    CorrectOptionIndex: 1
+    IsTrueFalse: 0
+    CorrectAnswer: 0
+    CorrectFeedback: Perfect! At room temperature, water exists as a liquid and is
+      essential for life.
+    IncorrectFeedback: "Oops! Water naturally exists as a liquid at room temperature.
+      Think about water in a glass or a lake\u2014it\u2019s liquid!"
+  - QuestionText: Water can only exist as a liquid.
+    Options:
+    - True
+    - False
+    CorrectOptionIndex: 1
+    IsTrueFalse: 0
+    CorrectAnswer: 0
+    CorrectFeedback: Great! Water can exist as a solid (ice), liquid (water), or
+      gas (steam or vapor).
+    IncorrectFeedback: 'Not quite. Water can exist in three states: solid, liquid,
+      and gas. Think of ice and steam!'
+  - QuestionText: In the gaseous state, molecules move slowly and are tightly packed.
+    Options:
+    - True
+    - False
+    CorrectOptionIndex: 1
+    IsTrueFalse: 0
+    CorrectAnswer: 0
+    CorrectFeedback: Great observation! In the gaseous state, molecules move quickly
+      and spread out freely.
+    IncorrectFeedback: Not quite! In gases, molecules move very fast and are spread
+      far apart. Try visualizing steam from boiling water.

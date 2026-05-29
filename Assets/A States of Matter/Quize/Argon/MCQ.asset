@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3dd1268a64a8d43ac8de41c4fa6ae4, type: 3}
+  m_Name: MCQ
+  m_EditorClassIdentifier: 
+  prompt: Q.1. When does solid Argon  become a liquid?
+  points: 1
+  options:
+  - When it is heated
+  - When it is cooled a lot
+  - When it is mixed with air
+  - When it is shaken
+  correctIndex: 0
+  shuffleOptions: 0
+  questionVO: {fileID: 8300000, guid: 0bc7c1d8eb5c64291adabf73bd3de989, type: 3}
+  optionVO:
+  - {fileID: 8300000, guid: 4eb242cab2351442f800f0d8399d5b77, type: 3}
+  - {fileID: 8300000, guid: 3fa154142487340f88e92dc6cd1eecc4, type: 3}
+  - {fileID: 8300000, guid: 2a9f43772daef4ed7b151bd2f702e8c6, type: 3}
+  - {fileID: 8300000, guid: 315a351e39aaf455da5e3e8812953c20, type: 3}

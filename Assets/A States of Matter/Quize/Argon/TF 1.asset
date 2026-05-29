@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169f7b4d010e4e24f940f0bfa90c1d9c, type: 3}
+  m_Name: TF 1
+  m_EditorClassIdentifier: 
+  prompt: Q.4. Nitrogen changes from a liquid to a gas when it is heated.
+  points: 1
+  answerTrue: 1
+  questionVO: {fileID: 8300000, guid: 97f647516d51c4bc0af72251f67ad80a, type: 3}
+  trueHoverVO: {fileID: 8300000, guid: 037d4c9d298c0c648accc805a64f82f9, type: 3}
+  falseHoverVO: {fileID: 8300000, guid: bde971d87055b204ba5a57af456f6cae, type: 3}
+  clickVO: {fileID: 0}

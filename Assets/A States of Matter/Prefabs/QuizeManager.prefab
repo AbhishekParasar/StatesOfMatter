@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5670013888887971068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109391476866171698}
+  - component: {fileID: 8591407016977606670}
+  m_Layer: 0
+  m_Name: QuizeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109391476866171698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670013888887971068}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1751.3163, y: 299.7177, z: -0.10604145}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8591407016977606670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670013888887971068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55aaaa898b889d48815955585d3af88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuizeCanvas: {fileID: 0}
+  QuestionText: {fileID: 0}
+  MultipleChoicePanel: {fileID: 0}
+  OptionButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  TrueFalsePanel: {fileID: 0}
+  TrueButton: {fileID: 0}
+  FalseButton: {fileID: 0}
+  PopupPanel: {fileID: 0}
+  FeedbackText: {fileID: 0}
+  NextButton: {fileID: 0}
+  RetryButton: {fileID: 0}
+  OKButton: {fileID: 0}
+  AllQuizData:
+  - {fileID: 11400000, guid: b9a389b0f8e08d34c9016b924749a950, type: 2}
